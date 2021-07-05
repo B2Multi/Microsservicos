@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "microservicos", "microservicos", "{9040042E-E92A-429B-BE5C-84765795F3EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "getway.webApi", "getway.webApi\getway.webApi.csproj", "{E26078F7-4999-4650-80B5-156FDD7938DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "artigo.microservico", "artigo.microservico\artigo.microservico.csproj", "{E526496A-B4CF-4585-97B4-2B6E247C57B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E26078F7-4999-4650-80B5-156FDD7938DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26078F7-4999-4650-80B5-156FDD7938DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26078F7-4999-4650-80B5-156FDD7938DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26078F7-4999-4650-80B5-156FDD7938DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E526496A-B4CF-4585-97B4-2B6E247C57B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E526496A-B4CF-4585-97B4-2B6E247C57B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E526496A-B4CF-4585-97B4-2B6E247C57B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E526496A-B4CF-4585-97B4-2B6E247C57B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E526496A-B4CF-4585-97B4-2B6E247C57B0} = {9040042E-E92A-429B-BE5C-84765795F3EC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41427183-3116-4369-914E-DABFECEF07C2}
+	EndGlobalSection
+EndGlobal
